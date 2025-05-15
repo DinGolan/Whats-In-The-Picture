@@ -1,0 +1,112 @@
+/**************************************/
+/* Exercise 1 - What's In the Picture */
+/**************************************/
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #0066cc;
+    font-size: 24px;
+}
+
+.container {
+    background-color: #007acc;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.quest-img {
+    border: 5px solid white;
+    border-radius: 4px;
+    height: auto;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.button {
+    border: none;
+    border-radius: 6px;
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin: 10px auto;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    width: 200px;
+}
+
+.button:hover {
+    background-color: #e65c00;
+}
+
+.button.correct {
+    background-color: #28a745;
+    color: white;
+}
+
+.button.wrong {
+    background-color: #dc3545;
+    color: white;
+}
+
+.game-over-msg {
+    color: #00cc66;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.restart-btn {
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.restart-btn:hover {
+    background-color: #004d99;
+    color: white;
+    font-weight: bold;
+}
+
+.timer {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timer .seconds {
+    color: #ffcc00;
+}
+
+.game-score {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.result-text {
+    color: #ffcc00;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
